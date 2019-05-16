@@ -1,0 +1,23 @@
+doctype
+html
+  head
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    title Welcome to Firebase Hosting
+    // update the version number as needed
+    script(defer="", src="/__/firebase/6.0.2/firebase-app.js")
+    // include only the Firebase features as you need
+    script(defer="", src="/__/firebase/6.0.2/firebase-auth.js")
+    script(defer="", src="/__/firebase/6.0.2/firebase-database.js")
+    script(defer="", src="/__/firebase/6.0.2/firebase-messaging.js")
+    script(defer="", src="/__/firebase/6.0.2/firebase-storage.js")
+    script(defer="", src="/__/firebase/6.0.2/firebase-firestore.js")
+    // initialize the SDK after all desired features are loaded
+    script(defer="", src="/__/firebase/init.js")
+    script(src="https://code.jquery.com/jquery-3.4.1.min.js")
+    script(src="index.js")
+    link(rel="stylesheet" href="./main.css")
+    link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP|Roboto")
+  body
+    != yield
+  link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js")

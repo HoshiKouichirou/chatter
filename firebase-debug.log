@@ -1,0 +1,1672 @@
+[debug] [2019-05-15T08:12:47.074Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T08:12:47.077Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T08:12:47.078Z] CLI Version:   6.9.2
+[debug] [2019-05-15T08:12:47.078Z] Platform:      darwin
+[debug] [2019-05-15T08:12:47.078Z] Node Version:  v10.15.3
+[debug] [2019-05-15T08:12:47.079Z] Time:          Wed May 15 2019 17:12:47 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T08:12:47.079Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T08:12:47.100Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T08:12:47.100Z] > authorizing via signed-in user
+[debug] [2019-05-15T08:12:47.101Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T08:12:47.104Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T08:12:47.926Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T08:12:47.929Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T08:12:48.679Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T08:12:48.687Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T08:12:48.688Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T08:12:49.203Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T08:12:49.269Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T08:12:50.010Z] Functions runtime initialized.
+[debug] [2019-05-15T08:12:50.010Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T08:15:44.747Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T08:15:44.749Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T08:15:44.750Z] CLI Version:   6.9.2
+[debug] [2019-05-15T08:15:44.750Z] Platform:      darwin
+[debug] [2019-05-15T08:15:44.750Z] Node Version:  v10.15.3
+[debug] [2019-05-15T08:15:44.751Z] Time:          Wed May 15 2019 17:15:44 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T08:15:44.751Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T08:15:44.762Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T08:15:44.762Z] > authorizing via signed-in user
+[debug] [2019-05-15T08:15:44.762Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T08:15:44.765Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T08:15:45.728Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T08:15:45.731Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T08:15:46.496Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T08:15:46.504Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T08:15:46.505Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T08:15:46.912Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T08:15:47.385Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T08:15:47.905Z] Functions runtime initialized.
+[debug] [2019-05-15T08:15:47.905Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T08:18:24.272Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T08:18:24.275Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T08:18:24.276Z] CLI Version:   6.9.2
+[debug] [2019-05-15T08:18:24.276Z] Platform:      darwin
+[debug] [2019-05-15T08:18:24.276Z] Node Version:  v10.15.3
+[debug] [2019-05-15T08:18:24.277Z] Time:          Wed May 15 2019 17:18:24 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T08:18:24.277Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T08:18:24.290Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T08:18:24.291Z] > authorizing via signed-in user
+[debug] [2019-05-15T08:18:24.291Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T08:18:24.293Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T08:18:25.216Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T08:18:25.220Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T08:18:25.973Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T08:18:25.982Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T08:18:25.984Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T08:18:26.461Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T08:18:26.476Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T08:18:26.992Z] Functions runtime initialized.
+[debug] [2019-05-15T08:18:26.992Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T08:19:10.413Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T08:19:10.416Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T08:19:10.416Z] CLI Version:   6.9.2
+[debug] [2019-05-15T08:19:10.416Z] Platform:      darwin
+[debug] [2019-05-15T08:19:10.416Z] Node Version:  v10.15.3
+[debug] [2019-05-15T08:19:10.418Z] Time:          Wed May 15 2019 17:19:10 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T08:19:10.418Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T08:19:10.431Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T08:19:10.432Z] > authorizing via signed-in user
+[debug] [2019-05-15T08:19:10.432Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T08:19:10.434Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T08:19:11.285Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T08:19:11.289Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T08:19:12.109Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T08:19:12.117Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T08:19:12.118Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T08:19:12.764Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T08:19:12.779Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T08:19:13.521Z] Functions runtime initialized.
+[debug] [2019-05-15T08:19:13.521Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T08:26:31.802Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T08:26:31.805Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T08:26:31.806Z] CLI Version:   6.9.2
+[debug] [2019-05-15T08:26:31.806Z] Platform:      darwin
+[debug] [2019-05-15T08:26:31.806Z] Node Version:  v10.15.3
+[debug] [2019-05-15T08:26:31.808Z] Time:          Wed May 15 2019 17:26:31 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T08:26:31.808Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T08:26:31.822Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T08:26:31.822Z] > authorizing via signed-in user
+[debug] [2019-05-15T08:26:31.822Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T08:26:31.824Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T08:26:32.886Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T08:26:32.889Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T08:26:33.734Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T08:26:33.745Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T08:26:33.746Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T08:26:34.351Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T08:26:34.367Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T08:26:34.838Z] Functions runtime initialized.
+[debug] [2019-05-15T08:26:34.838Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T08:28:43.259Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T08:28:43.262Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T08:28:43.262Z] CLI Version:   6.9.2
+[debug] [2019-05-15T08:28:43.262Z] Platform:      darwin
+[debug] [2019-05-15T08:28:43.262Z] Node Version:  v10.15.3
+[debug] [2019-05-15T08:28:43.264Z] Time:          Wed May 15 2019 17:28:43 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T08:28:43.264Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T08:28:43.277Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T08:28:43.277Z] > authorizing via signed-in user
+[debug] [2019-05-15T08:28:43.278Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T08:28:43.280Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T08:28:45.088Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T08:28:45.091Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T08:28:45.959Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T08:28:45.969Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T08:28:45.970Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T08:28:46.403Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T08:28:46.435Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T08:28:46.986Z] Functions runtime initialized.
+[debug] [2019-05-15T08:28:46.987Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T08:29:08.410Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T08:29:08.413Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T08:29:08.413Z] CLI Version:   6.9.2
+[debug] [2019-05-15T08:29:08.414Z] Platform:      darwin
+[debug] [2019-05-15T08:29:08.414Z] Node Version:  v10.15.3
+[debug] [2019-05-15T08:29:08.415Z] Time:          Wed May 15 2019 17:29:08 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T08:29:08.416Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T08:29:08.432Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T08:29:08.432Z] > authorizing via signed-in user
+[debug] [2019-05-15T08:29:08.432Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T08:29:08.434Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T08:29:09.333Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T08:29:09.337Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T08:29:10.226Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T08:29:10.232Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T08:29:10.233Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T08:29:10.775Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T08:29:10.954Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[debug] [2019-05-15T08:29:11.713Z] Functions runtime initialized.
+[debug] [2019-05-15T08:29:11.713Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T08:32:11.453Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T08:32:11.456Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T08:32:11.456Z] CLI Version:   6.9.2
+[debug] [2019-05-15T08:32:11.456Z] Platform:      darwin
+[debug] [2019-05-15T08:32:11.456Z] Node Version:  v10.15.3
+[debug] [2019-05-15T08:32:11.457Z] Time:          Wed May 15 2019 17:32:11 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T08:32:11.457Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T08:32:11.470Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T08:32:11.471Z] > authorizing via signed-in user
+[debug] [2019-05-15T08:32:11.471Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T08:32:11.473Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T08:32:12.348Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T08:32:12.350Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T08:32:13.187Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T08:32:13.192Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T08:32:13.193Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T08:32:13.817Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T08:32:14.020Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T08:32:15.301Z] Functions runtime initialized.
+[debug] [2019-05-15T08:32:15.301Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T08:34:57.238Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T08:34:57.241Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T08:34:57.241Z] CLI Version:   6.9.2
+[debug] [2019-05-15T08:34:57.241Z] Platform:      darwin
+[debug] [2019-05-15T08:34:57.241Z] Node Version:  v10.15.3
+[debug] [2019-05-15T08:34:57.242Z] Time:          Wed May 15 2019 17:34:57 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T08:34:57.242Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T08:34:57.256Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T08:34:57.257Z] > authorizing via signed-in user
+[debug] [2019-05-15T08:34:57.257Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T08:34:57.259Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-05-15T08:34:57.259Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-05-15T08:34:57.495Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T08:34:57.510Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T08:34:58.265Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T08:34:58.268Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T08:34:59.044Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T08:34:59.052Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T08:34:59.053Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T08:34:59.461Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T08:34:59.529Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T08:35:00.312Z] Functions runtime initialized.
+[debug] [2019-05-15T08:35:00.312Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T08:36:57.252Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T08:36:57.255Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T08:36:57.255Z] CLI Version:   6.9.2
+[debug] [2019-05-15T08:36:57.255Z] Platform:      darwin
+[debug] [2019-05-15T08:36:57.255Z] Node Version:  v10.15.3
+[debug] [2019-05-15T08:36:57.256Z] Time:          Wed May 15 2019 17:36:57 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T08:36:57.256Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T08:36:57.266Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T08:36:57.267Z] > authorizing via signed-in user
+[debug] [2019-05-15T08:36:57.267Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T08:36:57.269Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T08:36:58.119Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T08:36:58.122Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T08:36:58.961Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T08:36:58.968Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T08:36:58.970Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T08:36:59.574Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T08:36:59.588Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T08:37:00.006Z] Functions runtime initialized.
+[debug] [2019-05-15T08:37:00.006Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T08:57:26.661Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T08:57:26.664Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T08:57:26.664Z] CLI Version:   6.9.2
+[debug] [2019-05-15T08:57:26.664Z] Platform:      darwin
+[debug] [2019-05-15T08:57:26.664Z] Node Version:  v10.15.3
+[debug] [2019-05-15T08:57:26.665Z] Time:          Wed May 15 2019 17:57:26 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T08:57:26.665Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T08:57:26.680Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T08:57:26.680Z] > authorizing via signed-in user
+[debug] [2019-05-15T08:57:26.680Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T08:57:26.682Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T08:57:27.779Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T08:57:27.793Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T08:57:28.594Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T08:57:28.604Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T08:57:28.606Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T08:57:29.219Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T08:57:29.442Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[debug] [2019-05-15T08:57:30.115Z] Functions runtime initialized.
+[debug] [2019-05-15T08:57:30.115Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T08:58:32.610Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T08:58:32.613Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T08:58:32.613Z] CLI Version:   6.9.2
+[debug] [2019-05-15T08:58:32.613Z] Platform:      darwin
+[debug] [2019-05-15T08:58:32.614Z] Node Version:  v10.15.3
+[debug] [2019-05-15T08:58:32.615Z] Time:          Wed May 15 2019 17:58:32 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T08:58:32.615Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T08:58:32.629Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T08:58:32.630Z] > authorizing via signed-in user
+[debug] [2019-05-15T08:58:32.630Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T08:58:32.632Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T08:58:33.440Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T08:58:33.443Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T08:58:34.400Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T08:58:34.412Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T08:58:34.413Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T08:58:35.120Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T08:58:35.161Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T08:58:35.604Z] Functions runtime initialized.
+[debug] [2019-05-15T08:58:35.604Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T09:00:26.735Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T09:00:26.738Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T09:00:26.738Z] CLI Version:   6.9.2
+[debug] [2019-05-15T09:00:26.738Z] Platform:      darwin
+[debug] [2019-05-15T09:00:26.738Z] Node Version:  v10.15.3
+[debug] [2019-05-15T09:00:26.739Z] Time:          Wed May 15 2019 18:00:26 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T09:00:26.739Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T09:00:26.751Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T09:00:26.752Z] > authorizing via signed-in user
+[debug] [2019-05-15T09:00:26.752Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T09:00:26.754Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T09:00:27.621Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T09:00:27.624Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T09:00:28.376Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T09:00:28.382Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T09:00:28.383Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T09:00:28.758Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T09:00:28.947Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T09:00:29.470Z] Functions runtime initialized.
+[debug] [2019-05-15T09:00:29.470Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T09:01:21.668Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T09:01:21.671Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T09:01:21.671Z] CLI Version:   6.9.2
+[debug] [2019-05-15T09:01:21.671Z] Platform:      darwin
+[debug] [2019-05-15T09:01:21.671Z] Node Version:  v10.15.3
+[debug] [2019-05-15T09:01:21.672Z] Time:          Wed May 15 2019 18:01:21 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T09:01:21.672Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T09:01:21.684Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T09:01:21.685Z] > authorizing via signed-in user
+[debug] [2019-05-15T09:01:21.685Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T09:01:21.687Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T09:01:22.548Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T09:01:22.551Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T09:01:23.394Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T09:01:23.402Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T09:01:23.404Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T09:01:23.805Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T09:01:23.838Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T09:01:24.571Z] Functions runtime initialized.
+[debug] [2019-05-15T09:01:24.572Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T09:01:39.834Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T09:01:39.838Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T09:01:39.838Z] CLI Version:   6.9.2
+[debug] [2019-05-15T09:01:39.838Z] Platform:      darwin
+[debug] [2019-05-15T09:01:39.838Z] Node Version:  v10.15.3
+[debug] [2019-05-15T09:01:39.840Z] Time:          Wed May 15 2019 18:01:39 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T09:01:39.840Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T09:01:39.855Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T09:01:39.855Z] > authorizing via signed-in user
+[debug] [2019-05-15T09:01:39.856Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T09:01:39.858Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T09:01:40.737Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T09:01:40.740Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T09:01:41.476Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T09:01:41.484Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T09:01:41.485Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T09:01:41.889Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T09:01:41.905Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T09:01:42.556Z] Functions runtime initialized.
+[debug] [2019-05-15T09:01:42.557Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T09:02:55.116Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T09:02:55.119Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T09:02:55.119Z] CLI Version:   6.9.2
+[debug] [2019-05-15T09:02:55.119Z] Platform:      darwin
+[debug] [2019-05-15T09:02:55.119Z] Node Version:  v10.15.3
+[debug] [2019-05-15T09:02:55.120Z] Time:          Wed May 15 2019 18:02:55 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T09:02:55.121Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T09:02:55.131Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T09:02:55.131Z] > authorizing via signed-in user
+[debug] [2019-05-15T09:02:55.131Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T09:02:55.133Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T09:02:56.152Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T09:02:56.155Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T09:02:56.967Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T09:02:56.975Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T09:02:56.977Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T09:02:57.414Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T09:02:57.427Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T09:02:57.852Z] Functions runtime initialized.
+[debug] [2019-05-15T09:02:57.852Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T09:04:12.865Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T09:04:12.868Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T09:04:12.868Z] CLI Version:   6.9.2
+[debug] [2019-05-15T09:04:12.868Z] Platform:      darwin
+[debug] [2019-05-15T09:04:12.868Z] Node Version:  v10.15.3
+[debug] [2019-05-15T09:04:12.870Z] Time:          Wed May 15 2019 18:04:12 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T09:04:12.870Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T09:04:12.885Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T09:04:12.885Z] > authorizing via signed-in user
+[debug] [2019-05-15T09:04:12.885Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T09:04:12.887Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T09:04:13.941Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T09:04:13.945Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T09:04:14.922Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T09:04:14.933Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T09:04:14.934Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T09:04:15.499Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T09:04:15.532Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T09:04:17.051Z] Functions runtime initialized.
+[debug] [2019-05-15T09:04:17.051Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T09:07:00.422Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T09:07:00.425Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T09:07:00.425Z] CLI Version:   6.9.2
+[debug] [2019-05-15T09:07:00.425Z] Platform:      darwin
+[debug] [2019-05-15T09:07:00.425Z] Node Version:  v10.15.3
+[debug] [2019-05-15T09:07:00.426Z] Time:          Wed May 15 2019 18:07:00 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T09:07:00.426Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T09:07:00.437Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T09:07:00.437Z] > authorizing via signed-in user
+[debug] [2019-05-15T09:07:00.437Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T09:07:00.439Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T09:07:01.406Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T09:07:01.409Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T09:07:02.229Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T09:07:02.236Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T09:07:02.237Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T09:07:02.787Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T09:07:02.979Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T09:07:03.491Z] Functions runtime initialized.
+[debug] [2019-05-15T09:07:03.491Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T09:08:47.481Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T09:08:47.485Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T09:08:47.486Z] CLI Version:   6.9.2
+[debug] [2019-05-15T09:08:47.486Z] Platform:      darwin
+[debug] [2019-05-15T09:08:47.486Z] Node Version:  v10.15.3
+[debug] [2019-05-15T09:08:47.488Z] Time:          Wed May 15 2019 18:08:47 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T09:08:47.488Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T09:08:47.533Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T09:08:47.533Z] > authorizing via signed-in user
+[debug] [2019-05-15T09:08:47.534Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T09:08:47.542Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T09:08:48.646Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T09:08:48.650Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T09:08:49.618Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T09:08:49.627Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T09:08:49.628Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T09:08:50.667Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T09:08:50.817Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T09:08:51.339Z] Functions runtime initialized.
+[debug] [2019-05-15T09:08:51.340Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T09:09:16.002Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T09:09:16.006Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T09:09:16.006Z] CLI Version:   6.9.2
+[debug] [2019-05-15T09:09:16.006Z] Platform:      darwin
+[debug] [2019-05-15T09:09:16.006Z] Node Version:  v10.15.3
+[debug] [2019-05-15T09:09:16.007Z] Time:          Wed May 15 2019 18:09:16 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T09:09:16.008Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T09:09:16.018Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T09:09:16.019Z] > authorizing via signed-in user
+[debug] [2019-05-15T09:09:16.019Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T09:09:16.021Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T09:09:16.882Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T09:09:16.886Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T09:09:17.692Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T09:09:17.700Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T09:09:17.701Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T09:09:18.266Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T09:09:18.282Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T09:09:19.086Z] Functions runtime initialized.
+[debug] [2019-05-15T09:09:19.086Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T09:12:42.990Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T09:12:42.993Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T09:12:42.993Z] CLI Version:   6.9.2
+[debug] [2019-05-15T09:12:42.993Z] Platform:      darwin
+[debug] [2019-05-15T09:12:42.993Z] Node Version:  v10.15.3
+[debug] [2019-05-15T09:12:42.995Z] Time:          Wed May 15 2019 18:12:42 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T09:12:42.995Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T09:12:43.010Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T09:12:43.010Z] > authorizing via signed-in user
+[debug] [2019-05-15T09:12:43.010Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T09:12:43.012Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T09:12:45.147Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T09:12:45.151Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T09:12:46.678Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T09:12:46.687Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T09:12:46.688Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T09:12:47.559Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T09:12:47.622Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T09:12:48.229Z] Functions runtime initialized.
+[debug] [2019-05-15T09:12:48.229Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T09:13:43.926Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T09:13:43.928Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T09:13:43.929Z] CLI Version:   6.9.2
+[debug] [2019-05-15T09:13:43.929Z] Platform:      darwin
+[debug] [2019-05-15T09:13:43.929Z] Node Version:  v10.15.3
+[debug] [2019-05-15T09:13:43.930Z] Time:          Wed May 15 2019 18:13:43 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T09:13:43.930Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T09:13:43.942Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T09:13:43.943Z] > authorizing via signed-in user
+[debug] [2019-05-15T09:13:43.943Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T09:13:43.945Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T09:13:44.904Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T09:13:44.907Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T09:13:45.751Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T09:13:45.758Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T09:13:45.759Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T09:13:46.578Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T09:13:46.621Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T09:13:47.057Z] Functions runtime initialized.
+[debug] [2019-05-15T09:13:47.057Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T09:14:47.094Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T09:14:47.096Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T09:14:47.096Z] CLI Version:   6.9.2
+[debug] [2019-05-15T09:14:47.096Z] Platform:      darwin
+[debug] [2019-05-15T09:14:47.096Z] Node Version:  v10.15.3
+[debug] [2019-05-15T09:14:47.098Z] Time:          Wed May 15 2019 18:14:47 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T09:14:47.098Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T09:14:47.108Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T09:14:47.109Z] > authorizing via signed-in user
+[debug] [2019-05-15T09:14:47.109Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T09:14:47.111Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T09:14:48.104Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T09:14:48.107Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T09:14:49.660Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T09:14:49.670Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T09:14:49.671Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T09:14:51.308Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T09:14:51.322Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T09:14:52.441Z] Functions runtime initialized.
+[debug] [2019-05-15T09:14:52.441Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T09:16:39.883Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T09:16:39.887Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T09:16:39.887Z] CLI Version:   6.9.2
+[debug] [2019-05-15T09:16:39.887Z] Platform:      darwin
+[debug] [2019-05-15T09:16:39.887Z] Node Version:  v10.15.3
+[debug] [2019-05-15T09:16:39.889Z] Time:          Wed May 15 2019 18:16:39 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T09:16:39.889Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T09:16:39.905Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T09:16:39.906Z] > authorizing via signed-in user
+[debug] [2019-05-15T09:16:39.906Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T09:16:39.909Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T09:16:40.877Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T09:16:40.880Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T09:16:41.652Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T09:16:41.660Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T09:16:41.661Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T09:16:42.141Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T09:16:42.218Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T09:16:42.900Z] Functions runtime initialized.
+[debug] [2019-05-15T09:16:42.900Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T09:17:36.950Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T09:17:36.954Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T09:17:36.954Z] CLI Version:   6.9.2
+[debug] [2019-05-15T09:17:36.954Z] Platform:      darwin
+[debug] [2019-05-15T09:17:36.954Z] Node Version:  v10.15.3
+[debug] [2019-05-15T09:17:36.956Z] Time:          Wed May 15 2019 18:17:36 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T09:17:36.956Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T09:17:36.970Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T09:17:36.970Z] > authorizing via signed-in user
+[debug] [2019-05-15T09:17:36.970Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T09:17:36.973Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T09:17:37.951Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T09:17:37.956Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T09:17:38.956Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T09:17:38.962Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T09:17:38.963Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T09:17:39.380Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T09:17:39.443Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T09:17:39.987Z] Functions runtime initialized.
+[debug] [2019-05-15T09:17:39.987Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T09:19:59.222Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T09:19:59.225Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T09:19:59.226Z] CLI Version:   6.9.2
+[debug] [2019-05-15T09:19:59.226Z] Platform:      darwin
+[debug] [2019-05-15T09:19:59.226Z] Node Version:  v10.15.3
+[debug] [2019-05-15T09:19:59.227Z] Time:          Wed May 15 2019 18:19:59 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T09:19:59.227Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T09:19:59.241Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T09:19:59.241Z] > authorizing via signed-in user
+[debug] [2019-05-15T09:19:59.242Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T09:19:59.244Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-05-15T09:19:59.244Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-05-15T09:19:59.772Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T09:19:59.786Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T09:20:00.725Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T09:20:00.728Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T09:20:01.682Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T09:20:01.693Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T09:20:01.695Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T09:20:02.598Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T09:20:02.795Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T09:20:03.307Z] Functions runtime initialized.
+[debug] [2019-05-15T09:20:03.308Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T09:21:24.106Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T09:21:24.109Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T09:21:24.109Z] CLI Version:   6.9.2
+[debug] [2019-05-15T09:21:24.110Z] Platform:      darwin
+[debug] [2019-05-15T09:21:24.110Z] Node Version:  v10.15.3
+[debug] [2019-05-15T09:21:24.111Z] Time:          Wed May 15 2019 18:21:24 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T09:21:24.111Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T09:21:24.125Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T09:21:24.125Z] > authorizing via signed-in user
+[debug] [2019-05-15T09:21:24.125Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T09:21:24.127Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T09:21:25.228Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T09:21:25.230Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T09:21:26.339Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T09:21:26.350Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T09:21:26.351Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T09:21:27.002Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T09:21:27.626Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T09:21:28.948Z] Functions runtime initialized.
+[debug] [2019-05-15T09:21:28.948Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T09:22:00.980Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T09:22:00.983Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T09:22:00.983Z] CLI Version:   6.9.2
+[debug] [2019-05-15T09:22:00.983Z] Platform:      darwin
+[debug] [2019-05-15T09:22:00.983Z] Node Version:  v10.15.3
+[debug] [2019-05-15T09:22:00.984Z] Time:          Wed May 15 2019 18:22:00 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T09:22:00.984Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T09:22:00.997Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T09:22:00.997Z] > authorizing via signed-in user
+[debug] [2019-05-15T09:22:00.997Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T09:22:00.999Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T09:22:01.994Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T09:22:01.998Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T09:22:03.048Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T09:22:03.056Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T09:22:03.058Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T09:22:03.919Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T09:22:04.252Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[debug] [2019-05-15T09:22:05.701Z] Functions runtime initialized.
+[debug] [2019-05-15T09:22:05.701Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T09:23:18.706Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T09:23:18.709Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T09:23:18.710Z] CLI Version:   6.9.2
+[debug] [2019-05-15T09:23:18.710Z] Platform:      darwin
+[debug] [2019-05-15T09:23:18.710Z] Node Version:  v10.15.3
+[debug] [2019-05-15T09:23:18.711Z] Time:          Wed May 15 2019 18:23:18 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T09:23:18.711Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T09:23:18.724Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T09:23:18.725Z] > authorizing via signed-in user
+[debug] [2019-05-15T09:23:18.725Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T09:23:18.727Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T09:23:19.905Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T09:23:19.908Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T09:23:20.980Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T09:23:20.990Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T09:23:20.992Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T09:23:21.658Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T09:23:21.998Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T09:23:22.422Z] Functions runtime initialized.
+[debug] [2019-05-15T09:23:22.422Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T09:31:21.841Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T09:31:21.847Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T09:31:21.848Z] CLI Version:   6.9.2
+[debug] [2019-05-15T09:31:21.848Z] Platform:      darwin
+[debug] [2019-05-15T09:31:21.848Z] Node Version:  v10.15.3
+[debug] [2019-05-15T09:31:21.851Z] Time:          Wed May 15 2019 18:31:21 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T09:31:21.851Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T09:31:21.867Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T09:31:21.867Z] > authorizing via signed-in user
+[debug] [2019-05-15T09:31:21.867Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T09:31:21.870Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T09:31:23.206Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T09:31:23.209Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T09:31:24.375Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T09:31:24.384Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T09:31:24.386Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T09:31:25.226Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T09:31:25.376Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[debug] [2019-05-15T09:31:26.203Z] Functions runtime initialized.
+[debug] [2019-05-15T09:31:26.203Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T09:32:33.227Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T09:32:33.230Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T09:32:33.230Z] CLI Version:   6.9.2
+[debug] [2019-05-15T09:32:33.230Z] Platform:      darwin
+[debug] [2019-05-15T09:32:33.230Z] Node Version:  v10.15.3
+[debug] [2019-05-15T09:32:33.231Z] Time:          Wed May 15 2019 18:32:33 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T09:32:33.231Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T09:32:33.241Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T09:32:33.241Z] > authorizing via signed-in user
+[debug] [2019-05-15T09:32:33.242Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T09:32:33.244Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T09:32:34.631Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T09:32:34.635Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T09:32:35.649Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T09:32:35.656Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T09:32:35.658Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T09:32:36.464Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T09:32:36.477Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T09:32:36.900Z] Functions runtime initialized.
+[debug] [2019-05-15T09:32:36.900Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T09:34:16.383Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T09:34:16.389Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T09:34:16.389Z] CLI Version:   6.9.2
+[debug] [2019-05-15T09:34:16.390Z] Platform:      darwin
+[debug] [2019-05-15T09:34:16.390Z] Node Version:  v10.15.3
+[debug] [2019-05-15T09:34:16.392Z] Time:          Wed May 15 2019 18:34:16 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T09:34:16.392Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T09:34:16.411Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T09:34:16.411Z] > authorizing via signed-in user
+[debug] [2019-05-15T09:34:16.412Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T09:34:16.415Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T09:34:18.571Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T09:34:18.573Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T09:34:19.682Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T09:34:19.690Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T09:34:19.691Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T09:34:20.296Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T09:34:20.383Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T09:34:21.207Z] Functions runtime initialized.
+[debug] [2019-05-15T09:34:21.207Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T09:35:02.919Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T09:35:02.922Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T09:35:02.923Z] CLI Version:   6.9.2
+[debug] [2019-05-15T09:35:02.923Z] Platform:      darwin
+[debug] [2019-05-15T09:35:02.923Z] Node Version:  v10.15.3
+[debug] [2019-05-15T09:35:02.924Z] Time:          Wed May 15 2019 18:35:02 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T09:35:02.924Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T09:35:02.940Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T09:35:02.940Z] > authorizing via signed-in user
+[debug] [2019-05-15T09:35:02.940Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T09:35:02.943Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T09:35:04.131Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T09:35:04.134Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T09:35:05.119Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T09:35:05.126Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T09:35:05.128Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T09:35:05.719Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T09:35:05.838Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T09:35:07.375Z] Functions runtime initialized.
+[debug] [2019-05-15T09:35:07.376Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T09:43:28.092Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T09:43:28.095Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T09:43:28.095Z] CLI Version:   6.9.2
+[debug] [2019-05-15T09:43:28.095Z] Platform:      darwin
+[debug] [2019-05-15T09:43:28.095Z] Node Version:  v10.15.3
+[debug] [2019-05-15T09:43:28.096Z] Time:          Wed May 15 2019 18:43:28 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T09:43:28.096Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T09:43:28.110Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T09:43:28.110Z] > authorizing via signed-in user
+[debug] [2019-05-15T09:43:28.110Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T09:43:28.113Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T09:43:29.379Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T09:43:29.383Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T09:43:30.599Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T09:43:30.609Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T09:43:30.610Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T09:43:31.416Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T09:43:31.425Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T09:43:32.766Z] Functions runtime initialized.
+[debug] [2019-05-15T09:43:32.766Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T09:44:15.719Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T09:44:15.722Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T09:44:15.722Z] CLI Version:   6.9.2
+[debug] [2019-05-15T09:44:15.722Z] Platform:      darwin
+[debug] [2019-05-15T09:44:15.722Z] Node Version:  v10.15.3
+[debug] [2019-05-15T09:44:15.724Z] Time:          Wed May 15 2019 18:44:15 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T09:44:15.724Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T09:44:15.740Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T09:44:15.740Z] > authorizing via signed-in user
+[debug] [2019-05-15T09:44:15.740Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T09:44:15.743Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T09:44:16.813Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T09:44:16.818Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T09:44:17.906Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T09:44:17.914Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T09:44:17.916Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T09:44:18.587Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T09:44:18.609Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T09:44:19.343Z] Functions runtime initialized.
+[debug] [2019-05-15T09:44:19.343Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T09:44:42.226Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T09:44:42.228Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T09:44:42.229Z] CLI Version:   6.9.2
+[debug] [2019-05-15T09:44:42.229Z] Platform:      darwin
+[debug] [2019-05-15T09:44:42.229Z] Node Version:  v10.15.3
+[debug] [2019-05-15T09:44:42.230Z] Time:          Wed May 15 2019 18:44:42 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T09:44:42.231Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T09:44:42.242Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T09:44:42.243Z] > authorizing via signed-in user
+[debug] [2019-05-15T09:44:42.243Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T09:44:42.245Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T09:44:43.510Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T09:44:43.512Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T09:44:44.530Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T09:44:44.537Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T09:44:44.538Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T09:44:45.351Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T09:44:45.360Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T09:44:46.437Z] Functions runtime initialized.
+[debug] [2019-05-15T09:44:46.438Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T09:48:37.339Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T09:48:37.343Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T09:48:37.343Z] CLI Version:   6.9.2
+[debug] [2019-05-15T09:48:37.343Z] Platform:      darwin
+[debug] [2019-05-15T09:48:37.343Z] Node Version:  v10.15.3
+[debug] [2019-05-15T09:48:37.345Z] Time:          Wed May 15 2019 18:48:37 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T09:48:37.345Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T09:48:37.361Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T09:48:37.362Z] > authorizing via signed-in user
+[debug] [2019-05-15T09:48:37.362Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T09:48:37.365Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T09:48:38.673Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T09:48:38.675Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T09:48:40.027Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T09:48:40.033Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T09:48:40.034Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T09:48:40.946Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T09:48:41.156Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T09:48:41.905Z] Functions runtime initialized.
+[debug] [2019-05-15T09:48:41.905Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T09:49:12.523Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T09:49:12.528Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T09:49:12.528Z] CLI Version:   6.9.2
+[debug] [2019-05-15T09:49:12.529Z] Platform:      darwin
+[debug] [2019-05-15T09:49:12.529Z] Node Version:  v10.15.3
+[debug] [2019-05-15T09:49:12.530Z] Time:          Wed May 15 2019 18:49:12 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T09:49:12.530Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T09:49:12.542Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T09:49:12.542Z] > authorizing via signed-in user
+[debug] [2019-05-15T09:49:12.543Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T09:49:12.545Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T09:49:13.443Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T09:49:13.447Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T09:49:14.427Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T09:49:14.433Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T09:49:14.434Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T09:49:15.068Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T09:49:15.079Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T09:49:15.755Z] Functions runtime initialized.
+[debug] [2019-05-15T09:49:15.755Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T09:52:04.843Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T09:52:04.849Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T09:52:04.849Z] CLI Version:   6.9.2
+[debug] [2019-05-15T09:52:04.849Z] Platform:      darwin
+[debug] [2019-05-15T09:52:04.849Z] Node Version:  v10.15.3
+[debug] [2019-05-15T09:52:04.850Z] Time:          Wed May 15 2019 18:52:04 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T09:52:04.850Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T09:52:04.864Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T09:52:04.864Z] > authorizing via signed-in user
+[debug] [2019-05-15T09:52:04.864Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T09:52:04.868Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T09:52:05.951Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T09:52:05.955Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T09:52:07.015Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T09:52:07.024Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T09:52:07.025Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T09:52:08.231Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T09:52:08.268Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T09:52:09.002Z] Functions runtime initialized.
+[debug] [2019-05-15T09:52:09.002Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T09:53:17.674Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T09:53:17.677Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T09:53:17.677Z] CLI Version:   6.9.2
+[debug] [2019-05-15T09:53:17.677Z] Platform:      darwin
+[debug] [2019-05-15T09:53:17.678Z] Node Version:  v10.15.3
+[debug] [2019-05-15T09:53:17.679Z] Time:          Wed May 15 2019 18:53:17 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T09:53:17.679Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T09:53:17.691Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T09:53:17.691Z] > authorizing via signed-in user
+[debug] [2019-05-15T09:53:17.692Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T09:53:17.694Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T09:53:18.622Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T09:53:18.625Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T09:53:19.692Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T09:53:19.702Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T09:53:19.703Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T09:53:20.350Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T09:53:20.708Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[debug] [2019-05-15T09:53:23.315Z] Functions runtime initialized.
+[debug] [2019-05-15T09:53:23.316Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T09:54:46.695Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T09:54:46.698Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T09:54:46.698Z] CLI Version:   6.9.2
+[debug] [2019-05-15T09:54:46.698Z] Platform:      darwin
+[debug] [2019-05-15T09:54:46.698Z] Node Version:  v10.15.3
+[debug] [2019-05-15T09:54:46.699Z] Time:          Wed May 15 2019 18:54:46 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T09:54:46.700Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T09:54:46.718Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T09:54:46.718Z] > authorizing via signed-in user
+[debug] [2019-05-15T09:54:46.718Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T09:54:46.721Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T09:54:47.978Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T09:54:47.981Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T09:54:49.380Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T09:54:49.390Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T09:54:49.391Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T09:54:50.103Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T09:54:50.114Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T09:54:50.565Z] Functions runtime initialized.
+[debug] [2019-05-15T09:54:50.565Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T10:02:50.987Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T10:02:50.989Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T10:02:50.989Z] CLI Version:   6.9.2
+[debug] [2019-05-15T10:02:50.990Z] Platform:      darwin
+[debug] [2019-05-15T10:02:50.990Z] Node Version:  v10.15.3
+[debug] [2019-05-15T10:02:50.991Z] Time:          Wed May 15 2019 19:02:50 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T10:02:50.991Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T10:02:51.004Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T10:02:51.004Z] > authorizing via signed-in user
+[debug] [2019-05-15T10:02:51.004Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T10:02:51.006Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T10:02:52.024Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T10:02:52.027Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T10:02:52.901Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T10:02:52.906Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T10:02:52.907Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T10:02:53.494Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T10:02:53.519Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T10:02:56.366Z] Functions runtime initialized.
+[debug] [2019-05-15T10:02:56.368Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T10:04:42.024Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T10:04:42.026Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T10:04:42.027Z] CLI Version:   6.9.2
+[debug] [2019-05-15T10:04:42.027Z] Platform:      darwin
+[debug] [2019-05-15T10:04:42.027Z] Node Version:  v10.15.3
+[debug] [2019-05-15T10:04:42.028Z] Time:          Wed May 15 2019 19:04:42 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T10:04:42.028Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T10:04:42.041Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T10:04:42.041Z] > authorizing via signed-in user
+[debug] [2019-05-15T10:04:42.042Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T10:04:42.044Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T10:04:43.178Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T10:04:43.181Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T10:04:44.163Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T10:04:44.171Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T10:04:44.172Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T10:04:45.111Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T10:04:45.195Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T10:04:45.757Z] Functions runtime initialized.
+[debug] [2019-05-15T10:04:45.757Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T10:10:01.075Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T10:10:01.078Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T10:10:01.078Z] CLI Version:   6.9.2
+[debug] [2019-05-15T10:10:01.078Z] Platform:      darwin
+[debug] [2019-05-15T10:10:01.078Z] Node Version:  v10.15.3
+[debug] [2019-05-15T10:10:01.080Z] Time:          Wed May 15 2019 19:10:01 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T10:10:01.080Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T10:10:01.107Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T10:10:01.107Z] > authorizing via signed-in user
+[debug] [2019-05-15T10:10:01.107Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T10:10:01.109Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-05-15T10:10:01.110Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-05-15T10:10:01.449Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T10:10:01.467Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T10:10:02.421Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T10:10:02.423Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T10:10:03.259Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T10:10:03.267Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T10:10:03.268Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T10:10:04.210Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T10:10:04.234Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T10:10:05.645Z] Functions runtime initialized.
+[debug] [2019-05-15T10:10:05.645Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T10:12:15.982Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T10:12:15.986Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T10:12:15.987Z] CLI Version:   6.9.2
+[debug] [2019-05-15T10:12:15.987Z] Platform:      darwin
+[debug] [2019-05-15T10:12:15.987Z] Node Version:  v10.15.3
+[debug] [2019-05-15T10:12:15.990Z] Time:          Wed May 15 2019 19:12:15 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T10:12:15.991Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T10:12:16.014Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T10:12:16.014Z] > authorizing via signed-in user
+[debug] [2019-05-15T10:12:16.014Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T10:12:16.017Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T10:12:17.094Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T10:12:17.096Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T10:12:17.915Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T10:12:17.926Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T10:12:17.928Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T10:12:18.567Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-15T10:12:18.596Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T10:12:19.948Z] Functions runtime initialized.
+[debug] [2019-05-15T10:12:19.948Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-05-15T18:10:46.945Z] ----------------------------------------------------------------------
+[debug] [2019-05-15T18:10:46.948Z] Command:       /Users/hxdegawa/.ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-15T18:10:46.948Z] CLI Version:   6.9.2
+[debug] [2019-05-15T18:10:46.948Z] Platform:      darwin
+[debug] [2019-05-15T18:10:46.948Z] Node Version:  v10.15.3
+[debug] [2019-05-15T18:10:46.954Z] Time:          Thu May 16 2019 03:10:46 GMT+0900 (GMT+09:00)
+[debug] [2019-05-15T18:10:46.954Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-15T18:10:46.967Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-15T18:10:46.967Z] > authorizing via signed-in user
+[debug] [2019-05-15T18:10:46.967Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-15T18:10:46.969Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-05-15T18:10:46.970Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-05-15T18:10:47.674Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T18:10:47.692Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-15T18:10:48.466Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-15T18:10:48.468Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-15T18:10:49.229Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chat'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-15T18:10:49.237Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-15T18:10:49.239Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-15T18:10:49.830Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-15T18:10:49.977Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chat/functions" for Cloud Functions...
+[debug] [2019-05-15T18:10:50.425Z] Functions runtime initialized.
+[debug] [2019-05-15T18:10:50.425Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >7.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
