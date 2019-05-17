@@ -12,7 +12,6 @@ $(() => {
 
 	firebase.auth().onAuthStateChanged(function(user) {
 		if (user) {
-			console.log(user);
 			addChatInterface(user);
 		} else {
 			console.log("non-logged-in");
@@ -33,7 +32,6 @@ $(() => {
 	});
 
 	function addChatInterface(user) {
-		console.log(user);
 		selfEmail = user.email;
 		$(".logging-screen").addClass("authed");
 	}
@@ -42,9 +40,16 @@ $(() => {
 	db.collection("rooms").doc("test").collection("messages").orderBy("timestamp", "asc").onSnapshot(function(snapshot){
 		snapshot.docChanges().forEach(function(change) {
 			if (change.type === "added") {
-				$("<li />").appendTo(".message");
-				$("<span />").text(change.doc.data().message).appendTo(".message > li:last");
-				$(".message").scrollTop($(".message")[0].scrollHeight);
+				console.log(change.doc.data().email);
+				if (change.doc.data().email === selfEmail) {
+					$("<li class='self' />").appendTo(".message");
+					$("<span />").text(change.doc.data().message).appendTo(".message > li:last");
+					$(".message").scrollTop($(".message")[0].scrollHeight);
+				} else {
+					$("<li />").appendTo(".message");
+					$("<span />").text(change.doc.data().message).appendTo(".message > li:last");
+					$(".message").scrollTop($(".message")[0].scrollHeight);
+				}
 			};
 		});
 	});
@@ -59,7 +64,8 @@ $(() => {
 
 		db.collection("rooms").doc("test").collection("messages").add({
 			message: message,
-			timestamp: firebase.firestore.FieldValue.serverTimestamp()
+			timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+			email: selfEmail
 		});
 	});
 });
