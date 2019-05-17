@@ -2360,3 +2360,99 @@
     at new Promise (<anonymous>)
     at __awaiter (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
 [warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2019-05-17T07:02:49.623Z] ----------------------------------------------------------------------
+[debug] [2019-05-17T07:02:49.625Z] Command:       C:\Program Files (x86)\Nodist\v-x64\10.15.3\node.exe C:\Program Files (x86)\Nodist\bin\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-05-17T07:02:49.625Z] CLI Version:   6.9.2
+[debug] [2019-05-17T07:02:49.625Z] Platform:      win32
+[debug] [2019-05-17T07:02:49.625Z] Node Version:  v10.15.3
+[debug] [2019-05-17T07:02:49.626Z] Time:          Fri May 17 2019 16:02:49 GMT+0900 (GMT+09:00)
+[debug] [2019-05-17T07:02:49.626Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-17T07:02:49.636Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-17T07:02:49.637Z] > authorizing via signed-in user
+[debug] [2019-05-17T07:02:49.637Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-17T07:02:49.638Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-05-17T07:02:49.638Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-05-17T07:02:49.821Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-17T07:02:49.832Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-17T07:02:50.584Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-17T07:02:50.584Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-17T07:02:51.326Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\poyo\AppData\Roaming\eDEX-UI\codes\chatter'...
+[info] 
+[warn] !  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-17T07:02:51.339Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-17T07:02:51.339Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-17T07:02:51.976Z] <<< HTTP RESPONSE 200
+[info] +  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-17T07:02:52.061Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "C:\Users\poyo\AppData\Roaming\eDEX-UI\codes\chatter\functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2019-05-17T07:02:52.437Z] Functions runtime initialized.
+[debug] [2019-05-17T07:02:52.437Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] !  Error: Cannot find module 'package.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at verifyDeveloperNodeModules (C:\Program Files (x86)\Nodist\bin\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:118:32)
+    at C:\Program Files (x86)\Nodist\bin\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:458:26
+    at Generator.next (<anonymous>)
+    at C:\Program Files (x86)\Nodist\bin\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Program Files (x86)\Nodist\bin\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:3:12)
+[warn] !  Your function was killed because it raised an unhandled error.
+[debug] [2019-05-17T07:11:04.187Z] ----------------------------------------------------------------------
+[debug] [2019-05-17T07:11:04.189Z] Command:       C:\Program Files (x86)\Nodist\v-x64\10.15.3\node.exe C:\Program Files (x86)\Nodist\bin\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-05-17T07:11:04.189Z] CLI Version:   6.9.2
+[debug] [2019-05-17T07:11:04.189Z] Platform:      win32
+[debug] [2019-05-17T07:11:04.189Z] Node Version:  v10.15.3
+[debug] [2019-05-17T07:11:04.190Z] Time:          Fri May 17 2019 16:11:04 GMT+0900 (GMT+09:00)
+[debug] [2019-05-17T07:11:04.190Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-17T07:11:04.197Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-17T07:11:04.198Z] > authorizing via signed-in user
+[debug] [2019-05-17T07:11:04.198Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-17T07:11:04.199Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-17T07:11:05.048Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-17T07:11:05.050Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-17T07:11:05.871Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\poyo\AppData\Roaming\eDEX-UI\codes\chatter'...
+[info] 
+[warn] !  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-17T07:11:05.877Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-17T07:11:05.877Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-17T07:11:06.344Z] <<< HTTP RESPONSE 200
+[info] +  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-17T07:11:06.722Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "C:\Users\poyo\AppData\Roaming\eDEX-UI\codes\chatter\functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2019-05-17T07:11:07.063Z] Functions runtime initialized.
+[debug] [2019-05-17T07:11:07.064Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] !  Error: Cannot find module 'package.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at verifyDeveloperNodeModules (C:\Program Files (x86)\Nodist\bin\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:118:32)
+    at C:\Program Files (x86)\Nodist\bin\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:458:26
+    at Generator.next (<anonymous>)
+    at C:\Program Files (x86)\Nodist\bin\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Program Files (x86)\Nodist\bin\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:3:12)
+[warn] !  Your function was killed because it raised an unhandled error.
