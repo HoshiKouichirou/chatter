@@ -39,7 +39,7 @@ $(() => {
 	}
 
 	const db = firebase.firestore()
-	db.collection("rooms").doc("test").collection("messages").onSnapshot(function(snapshot){
+	db.collection("rooms").doc("test").collection("messages").orderBy("timestamp", "asc").onSnapshot(function(snapshot){
 		snapshot.docChanges().forEach(function(change) {
 			if (change.type === "added") {
 				$("<li />").appendTo(".message");
@@ -58,7 +58,10 @@ $(() => {
 		$(".text").val("");
 
 		db.collection("rooms").doc("test").collection("messages").add({
-			message: message
-		});
-	});
+
+			message:message,
+			timestamp: firebase.firestore.FieldValue.serverTimestamp()
+		})
+	})
+	console.log(db)
 });
