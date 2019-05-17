@@ -2456,3 +2456,1085 @@
     at new Promise (<anonymous>)
     at __awaiter (C:\Program Files (x86)\Nodist\bin\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:3:12)
 [warn] !  Your function was killed because it raised an unhandled error.
+[debug] [2019-05-17T07:25:09.823Z] ----------------------------------------------------------------------
+[debug] [2019-05-17T07:25:09.824Z] Command:       /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-17T07:25:09.825Z] CLI Version:   6.9.2
+[debug] [2019-05-17T07:25:09.825Z] Platform:      darwin
+[debug] [2019-05-17T07:25:09.826Z] Node Version:  v10.15.3
+[debug] [2019-05-17T07:25:09.827Z] Time:          Fri May 17 2019 16:25:09 GMT+0900 (Japan Standard Time)
+[debug] [2019-05-17T07:25:09.827Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-17T07:25:09.834Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-17T07:25:09.834Z] > authorizing via signed-in user
+[debug] [2019-05-17T07:25:09.834Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-17T07:25:09.835Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-17T07:25:13.586Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-17T07:25:13.587Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-17T07:25:14.321Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chatter'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-17T07:25:14.324Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-17T07:25:14.324Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-17T07:25:14.765Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-17T07:25:14.917Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chatter/functions" for Cloud Functions...
+[debug] [2019-05-17T07:25:15.149Z] Functions runtime initialized.
+[debug] [2019-05-17T07:25:15.149Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  Error: Cannot find module 'package.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at verifyDeveloperNodeModules (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:118:32)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:458:26
+    at Generator.next (<anonymous>)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2019-05-17T07:26:57.170Z] ----------------------------------------------------------------------
+[debug] [2019-05-17T07:26:57.172Z] Command:       /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-17T07:26:57.172Z] CLI Version:   6.9.2
+[debug] [2019-05-17T07:26:57.172Z] Platform:      darwin
+[debug] [2019-05-17T07:26:57.172Z] Node Version:  v10.15.3
+[debug] [2019-05-17T07:26:57.190Z] Time:          Fri May 17 2019 16:26:57 GMT+0900 (GMT+09:00)
+[debug] [2019-05-17T07:26:57.190Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-17T07:26:57.196Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-17T07:26:57.196Z] > authorizing via signed-in user
+[debug] [2019-05-17T07:26:57.197Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-17T07:26:57.198Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-17T07:26:57.938Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-17T07:26:57.939Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-17T07:26:58.672Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chatter'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-17T07:26:58.674Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-17T07:26:58.675Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-17T07:26:59.060Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-17T07:26:59.095Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chatter/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-17T07:26:59.325Z] Functions runtime initialized.
+[debug] [2019-05-17T07:26:59.326Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  Error: Cannot find module 'package.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at verifyDeveloperNodeModules (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:118:32)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:458:26
+    at Generator.next (<anonymous>)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2019-05-17T08:01:53.559Z] ----------------------------------------------------------------------
+[debug] [2019-05-17T08:01:53.561Z] Command:       /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-17T08:01:53.561Z] CLI Version:   6.9.2
+[debug] [2019-05-17T08:01:53.561Z] Platform:      darwin
+[debug] [2019-05-17T08:01:53.561Z] Node Version:  v10.15.3
+[debug] [2019-05-17T08:01:53.562Z] Time:          Fri May 17 2019 17:01:53 GMT+0900 (GMT+09:00)
+[debug] [2019-05-17T08:01:53.562Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-17T08:01:53.568Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-17T08:01:53.569Z] > authorizing via signed-in user
+[debug] [2019-05-17T08:01:53.569Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-17T08:01:53.570Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-05-17T08:01:53.570Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-05-17T08:01:53.782Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-17T08:01:53.797Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-17T08:01:54.559Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-17T08:01:54.559Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-17T08:01:55.297Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chatter'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-17T08:01:55.300Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-17T08:01:55.300Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-17T08:01:55.753Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-17T08:01:56.006Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chatter/functions" for Cloud Functions...
+[debug] [2019-05-17T08:01:56.229Z] Functions runtime initialized.
+[debug] [2019-05-17T08:01:56.229Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  Error: Cannot find module 'package.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at verifyDeveloperNodeModules (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:118:32)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:458:26
+    at Generator.next (<anonymous>)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2019-05-17T08:50:09.794Z] ----------------------------------------------------------------------
+[debug] [2019-05-17T08:50:09.796Z] Command:       /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-17T08:50:09.796Z] CLI Version:   6.9.2
+[debug] [2019-05-17T08:50:09.796Z] Platform:      darwin
+[debug] [2019-05-17T08:50:09.796Z] Node Version:  v10.15.3
+[debug] [2019-05-17T08:50:09.797Z] Time:          Fri May 17 2019 17:50:09 GMT+0900 (GMT+09:00)
+[debug] [2019-05-17T08:50:09.797Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-17T08:50:09.805Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-17T08:50:09.805Z] > authorizing via signed-in user
+[debug] [2019-05-17T08:50:09.805Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-17T08:50:09.806Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-05-17T08:50:09.806Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-05-17T08:50:10.004Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-17T08:50:10.017Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-17T08:50:10.735Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-17T08:50:10.735Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-17T08:50:11.471Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chatter'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-17T08:50:11.474Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-17T08:50:11.474Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-17T08:50:11.834Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-17T08:50:12.434Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chatter/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-17T08:50:12.643Z] Functions runtime initialized.
+[debug] [2019-05-17T08:50:12.643Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  Error: Cannot find module 'package.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at verifyDeveloperNodeModules (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:118:32)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:458:26
+    at Generator.next (<anonymous>)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2019-05-17T08:51:16.265Z] ----------------------------------------------------------------------
+[debug] [2019-05-17T08:51:16.267Z] Command:       /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-17T08:51:16.267Z] CLI Version:   6.9.2
+[debug] [2019-05-17T08:51:16.267Z] Platform:      darwin
+[debug] [2019-05-17T08:51:16.267Z] Node Version:  v10.15.3
+[debug] [2019-05-17T08:51:16.267Z] Time:          Fri May 17 2019 17:51:16 GMT+0900 (GMT+09:00)
+[debug] [2019-05-17T08:51:16.267Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-17T08:51:16.274Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-17T08:51:16.274Z] > authorizing via signed-in user
+[debug] [2019-05-17T08:51:16.274Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-17T08:51:16.275Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-17T08:51:17.017Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-17T08:51:17.018Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-17T08:51:17.750Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chatter'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-17T08:51:17.752Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-17T08:51:17.753Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-17T08:51:18.146Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-17T08:51:18.200Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chatter/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-17T08:51:18.459Z] Functions runtime initialized.
+[debug] [2019-05-17T08:51:18.459Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  Error: Cannot find module 'package.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at verifyDeveloperNodeModules (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:118:32)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:458:26
+    at Generator.next (<anonymous>)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2019-05-17T08:51:41.781Z] ----------------------------------------------------------------------
+[debug] [2019-05-17T08:51:41.782Z] Command:       /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-17T08:51:41.782Z] CLI Version:   6.9.2
+[debug] [2019-05-17T08:51:41.782Z] Platform:      darwin
+[debug] [2019-05-17T08:51:41.782Z] Node Version:  v10.15.3
+[debug] [2019-05-17T08:51:41.783Z] Time:          Fri May 17 2019 17:51:41 GMT+0900 (GMT+09:00)
+[debug] [2019-05-17T08:51:41.783Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-17T08:51:41.789Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-17T08:51:41.789Z] > authorizing via signed-in user
+[debug] [2019-05-17T08:51:41.789Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-17T08:51:41.790Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-17T08:51:42.526Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-17T08:51:42.528Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-17T08:51:42.737Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chatter'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-17T08:51:42.739Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-17T08:51:42.740Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-17T08:51:43.158Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-17T08:51:43.415Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chatter/functions" for Cloud Functions...
+[debug] [2019-05-17T08:51:43.624Z] Functions runtime initialized.
+[debug] [2019-05-17T08:51:43.624Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  Error: Cannot find module 'package.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at verifyDeveloperNodeModules (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:118:32)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:458:26
+    at Generator.next (<anonymous>)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2019-05-17T08:51:54.977Z] ----------------------------------------------------------------------
+[debug] [2019-05-17T08:51:54.979Z] Command:       /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-17T08:51:54.979Z] CLI Version:   6.9.2
+[debug] [2019-05-17T08:51:54.979Z] Platform:      darwin
+[debug] [2019-05-17T08:51:54.981Z] Node Version:  v10.15.3
+[debug] [2019-05-17T08:51:54.981Z] Time:          Fri May 17 2019 17:51:54 GMT+0900 (GMT+09:00)
+[debug] [2019-05-17T08:51:54.981Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-17T08:51:54.988Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-17T08:51:54.988Z] > authorizing via signed-in user
+[debug] [2019-05-17T08:51:54.988Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-17T08:51:54.989Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-17T08:51:55.721Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-17T08:51:55.723Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-17T08:51:56.464Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chatter'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-17T08:51:56.466Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-17T08:51:56.467Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-17T08:51:56.836Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-17T08:51:57.209Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chatter/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-17T08:51:57.418Z] Functions runtime initialized.
+[debug] [2019-05-17T08:51:57.418Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  Error: Cannot find module 'package.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at verifyDeveloperNodeModules (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:118:32)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:458:26
+    at Generator.next (<anonymous>)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2019-05-17T08:52:20.241Z] ----------------------------------------------------------------------
+[debug] [2019-05-17T08:52:20.242Z] Command:       /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-17T08:52:20.243Z] CLI Version:   6.9.2
+[debug] [2019-05-17T08:52:20.243Z] Platform:      darwin
+[debug] [2019-05-17T08:52:20.243Z] Node Version:  v10.15.3
+[debug] [2019-05-17T08:52:20.243Z] Time:          Fri May 17 2019 17:52:20 GMT+0900 (GMT+09:00)
+[debug] [2019-05-17T08:52:20.243Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-17T08:52:20.250Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-17T08:52:20.250Z] > authorizing via signed-in user
+[debug] [2019-05-17T08:52:20.250Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-17T08:52:20.251Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-17T08:52:20.991Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-17T08:52:20.993Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-17T08:52:21.738Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chatter'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-17T08:52:21.742Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-17T08:52:21.742Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-17T08:52:22.031Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-17T08:52:22.144Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chatter/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-17T08:52:22.385Z] Functions runtime initialized.
+[debug] [2019-05-17T08:52:22.386Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  Error: Cannot find module 'package.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at verifyDeveloperNodeModules (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:118:32)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:458:26
+    at Generator.next (<anonymous>)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2019-05-17T08:53:15.047Z] ----------------------------------------------------------------------
+[debug] [2019-05-17T08:53:15.048Z] Command:       /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-17T08:53:15.048Z] CLI Version:   6.9.2
+[debug] [2019-05-17T08:53:15.049Z] Platform:      darwin
+[debug] [2019-05-17T08:53:15.049Z] Node Version:  v10.15.3
+[debug] [2019-05-17T08:53:15.049Z] Time:          Fri May 17 2019 17:53:15 GMT+0900 (GMT+09:00)
+[debug] [2019-05-17T08:53:15.049Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-17T08:53:15.056Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-17T08:53:15.056Z] > authorizing via signed-in user
+[debug] [2019-05-17T08:53:15.056Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-17T08:53:15.057Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-17T08:53:15.799Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-17T08:53:15.800Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-17T08:53:16.524Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chatter'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-17T08:53:16.526Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-17T08:53:16.527Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-17T08:53:16.962Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-17T08:53:17.164Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chatter/functions" for Cloud Functions...
+[debug] [2019-05-17T08:53:17.409Z] Functions runtime initialized.
+[debug] [2019-05-17T08:53:17.409Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  Error: Cannot find module 'package.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at verifyDeveloperNodeModules (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:118:32)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:458:26
+    at Generator.next (<anonymous>)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2019-05-17T08:53:38.697Z] ----------------------------------------------------------------------
+[debug] [2019-05-17T08:53:38.699Z] Command:       /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-17T08:53:38.699Z] CLI Version:   6.9.2
+[debug] [2019-05-17T08:53:38.699Z] Platform:      darwin
+[debug] [2019-05-17T08:53:38.699Z] Node Version:  v10.15.3
+[debug] [2019-05-17T08:53:38.700Z] Time:          Fri May 17 2019 17:53:38 GMT+0900 (GMT+09:00)
+[debug] [2019-05-17T08:53:38.700Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-17T08:53:38.707Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-17T08:53:38.707Z] > authorizing via signed-in user
+[debug] [2019-05-17T08:53:38.707Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-17T08:53:38.708Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-17T08:53:39.430Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-17T08:53:39.432Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-17T08:53:40.175Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chatter'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-17T08:53:40.178Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-17T08:53:40.178Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-17T08:53:40.585Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-17T08:53:40.850Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chatter/functions" for Cloud Functions...
+[debug] [2019-05-17T08:53:41.057Z] Functions runtime initialized.
+[debug] [2019-05-17T08:53:41.057Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  Error: Cannot find module 'package.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at verifyDeveloperNodeModules (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:118:32)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:458:26
+    at Generator.next (<anonymous>)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2019-05-17T08:54:49.252Z] ----------------------------------------------------------------------
+[debug] [2019-05-17T08:54:49.254Z] Command:       /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-17T08:54:49.254Z] CLI Version:   6.9.2
+[debug] [2019-05-17T08:54:49.254Z] Platform:      darwin
+[debug] [2019-05-17T08:54:49.254Z] Node Version:  v10.15.3
+[debug] [2019-05-17T08:54:49.255Z] Time:          Fri May 17 2019 17:54:49 GMT+0900 (GMT+09:00)
+[debug] [2019-05-17T08:54:49.255Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-17T08:54:49.261Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-17T08:54:49.262Z] > authorizing via signed-in user
+[debug] [2019-05-17T08:54:49.262Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-17T08:54:49.263Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-17T08:54:49.998Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-17T08:54:49.999Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-17T08:54:52.831Z] ----------------------------------------------------------------------
+[debug] [2019-05-17T08:54:52.832Z] Command:       /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-17T08:54:52.832Z] CLI Version:   6.9.2
+[debug] [2019-05-17T08:54:52.832Z] Platform:      darwin
+[debug] [2019-05-17T08:54:52.832Z] Node Version:  v10.15.3
+[debug] [2019-05-17T08:54:52.833Z] Time:          Fri May 17 2019 17:54:52 GMT+0900 (GMT+09:00)
+[debug] [2019-05-17T08:54:52.833Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-17T08:54:52.839Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-17T08:54:52.839Z] > authorizing via signed-in user
+[debug] [2019-05-17T08:54:52.839Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-17T08:54:52.840Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-17T08:54:53.579Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-17T08:54:53.581Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-17T08:54:54.314Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chatter'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-17T08:54:54.317Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-17T08:54:54.317Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-17T08:54:54.678Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-17T08:54:54.717Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chatter/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-17T08:54:54.930Z] Functions runtime initialized.
+[debug] [2019-05-17T08:54:54.930Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  Error: Cannot find module 'package.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at verifyDeveloperNodeModules (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:118:32)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:458:26
+    at Generator.next (<anonymous>)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2019-05-17T08:59:46.534Z] ----------------------------------------------------------------------
+[debug] [2019-05-17T08:59:46.536Z] Command:       /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-17T08:59:46.536Z] CLI Version:   6.9.2
+[debug] [2019-05-17T08:59:46.536Z] Platform:      darwin
+[debug] [2019-05-17T08:59:46.536Z] Node Version:  v10.15.3
+[debug] [2019-05-17T08:59:46.537Z] Time:          Fri May 17 2019 17:59:46 GMT+0900 (GMT+09:00)
+[debug] [2019-05-17T08:59:46.537Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-17T08:59:46.543Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-17T08:59:46.543Z] > authorizing via signed-in user
+[debug] [2019-05-17T08:59:46.543Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-17T08:59:46.544Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-17T08:59:47.296Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-17T08:59:47.297Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-17T08:59:48.025Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chatter'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-17T08:59:48.027Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-17T08:59:48.028Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-17T08:59:48.633Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-17T08:59:48.723Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chatter/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-17T08:59:48.932Z] Functions runtime initialized.
+[debug] [2019-05-17T08:59:48.932Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  Error: Cannot find module 'package.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at verifyDeveloperNodeModules (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:118:32)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:458:26
+    at Generator.next (<anonymous>)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2019-05-17T09:00:59.756Z] ----------------------------------------------------------------------
+[debug] [2019-05-17T09:00:59.758Z] Command:       /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-17T09:00:59.758Z] CLI Version:   6.9.2
+[debug] [2019-05-17T09:00:59.758Z] Platform:      darwin
+[debug] [2019-05-17T09:00:59.758Z] Node Version:  v10.15.3
+[debug] [2019-05-17T09:00:59.759Z] Time:          Fri May 17 2019 18:00:59 GMT+0900 (GMT+09:00)
+[debug] [2019-05-17T09:00:59.759Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-17T09:00:59.765Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-17T09:00:59.766Z] > authorizing via signed-in user
+[debug] [2019-05-17T09:00:59.766Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-17T09:00:59.767Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-17T09:01:00.521Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-17T09:01:00.522Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-17T09:01:01.254Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chatter'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-17T09:01:01.257Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-17T09:01:01.257Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-17T09:01:01.645Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-17T09:01:01.958Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chatter/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-17T09:01:02.168Z] Functions runtime initialized.
+[debug] [2019-05-17T09:01:02.168Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  Error: Cannot find module 'package.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at verifyDeveloperNodeModules (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:118:32)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:458:26
+    at Generator.next (<anonymous>)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2019-05-17T09:02:42.671Z] ----------------------------------------------------------------------
+[debug] [2019-05-17T09:02:42.673Z] Command:       /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-17T09:02:42.673Z] CLI Version:   6.9.2
+[debug] [2019-05-17T09:02:42.674Z] Platform:      darwin
+[debug] [2019-05-17T09:02:42.674Z] Node Version:  v10.15.3
+[debug] [2019-05-17T09:02:42.674Z] Time:          Fri May 17 2019 18:02:42 GMT+0900 (GMT+09:00)
+[debug] [2019-05-17T09:02:42.674Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-17T09:02:42.683Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-17T09:02:42.683Z] > authorizing via signed-in user
+[debug] [2019-05-17T09:02:42.684Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-17T09:02:42.686Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-17T09:02:43.439Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-17T09:02:43.440Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-17T09:02:44.169Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chatter'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-17T09:02:44.173Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-17T09:02:44.173Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-17T09:02:44.604Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-17T09:02:44.846Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chatter/functions" for Cloud Functions...
+[debug] [2019-05-17T09:02:45.115Z] Functions runtime initialized.
+[debug] [2019-05-17T09:02:45.115Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  Error: Cannot find module 'package.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at verifyDeveloperNodeModules (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:118:32)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:458:26
+    at Generator.next (<anonymous>)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2019-05-17T09:03:03.229Z] ----------------------------------------------------------------------
+[debug] [2019-05-17T09:03:03.230Z] Command:       /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-17T09:03:03.230Z] CLI Version:   6.9.2
+[debug] [2019-05-17T09:03:03.231Z] Platform:      darwin
+[debug] [2019-05-17T09:03:03.231Z] Node Version:  v10.15.3
+[debug] [2019-05-17T09:03:03.231Z] Time:          Fri May 17 2019 18:03:03 GMT+0900 (GMT+09:00)
+[debug] [2019-05-17T09:03:03.231Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-17T09:03:03.238Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-17T09:03:03.238Z] > authorizing via signed-in user
+[debug] [2019-05-17T09:03:03.238Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-17T09:03:03.239Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-17T09:03:07.005Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-17T09:03:07.007Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-17T09:03:07.748Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chatter'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-17T09:03:07.751Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-17T09:03:07.752Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-17T09:03:08.078Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-17T09:03:08.154Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chatter/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-17T09:03:08.406Z] Functions runtime initialized.
+[debug] [2019-05-17T09:03:08.407Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  Error: Cannot find module 'package.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at verifyDeveloperNodeModules (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:118:32)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:458:26
+    at Generator.next (<anonymous>)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2019-05-17T09:03:37.700Z] ----------------------------------------------------------------------
+[debug] [2019-05-17T09:03:37.701Z] Command:       /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-17T09:03:37.702Z] CLI Version:   6.9.2
+[debug] [2019-05-17T09:03:37.702Z] Platform:      darwin
+[debug] [2019-05-17T09:03:37.702Z] Node Version:  v10.15.3
+[debug] [2019-05-17T09:03:37.702Z] Time:          Fri May 17 2019 18:03:37 GMT+0900 (GMT+09:00)
+[debug] [2019-05-17T09:03:37.702Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-17T09:03:37.709Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-17T09:03:37.709Z] > authorizing via signed-in user
+[debug] [2019-05-17T09:03:37.709Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-17T09:03:37.710Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-17T09:03:38.453Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-17T09:03:38.454Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-17T09:03:39.184Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chatter'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-17T09:03:39.186Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-17T09:03:39.187Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-17T09:03:39.565Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-17T09:03:39.603Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chatter/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-17T09:03:39.821Z] Functions runtime initialized.
+[debug] [2019-05-17T09:03:39.821Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  Error: Cannot find module 'package.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at verifyDeveloperNodeModules (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:118:32)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:458:26
+    at Generator.next (<anonymous>)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2019-05-17T09:05:34.834Z] ----------------------------------------------------------------------
+[debug] [2019-05-17T09:05:34.835Z] Command:       /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-17T09:05:34.835Z] CLI Version:   6.9.2
+[debug] [2019-05-17T09:05:34.835Z] Platform:      darwin
+[debug] [2019-05-17T09:05:34.835Z] Node Version:  v10.15.3
+[debug] [2019-05-17T09:05:34.836Z] Time:          Fri May 17 2019 18:05:34 GMT+0900 (GMT+09:00)
+[debug] [2019-05-17T09:05:34.836Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-17T09:05:34.843Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-17T09:05:34.843Z] > authorizing via signed-in user
+[debug] [2019-05-17T09:05:34.843Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-17T09:05:34.844Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-17T09:05:35.577Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-17T09:05:35.578Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-17T09:05:36.331Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chatter'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-17T09:05:36.334Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-17T09:05:36.334Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-17T09:05:36.727Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-17T09:05:36.753Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chatter/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-17T09:05:36.982Z] Functions runtime initialized.
+[debug] [2019-05-17T09:05:36.982Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  Error: Cannot find module 'package.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at verifyDeveloperNodeModules (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:118:32)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:458:26
+    at Generator.next (<anonymous>)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2019-05-17T09:06:43.472Z] ----------------------------------------------------------------------
+[debug] [2019-05-17T09:06:43.474Z] Command:       /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-17T09:06:43.474Z] CLI Version:   6.9.2
+[debug] [2019-05-17T09:06:43.474Z] Platform:      darwin
+[debug] [2019-05-17T09:06:43.474Z] Node Version:  v10.15.3
+[debug] [2019-05-17T09:06:43.474Z] Time:          Fri May 17 2019 18:06:43 GMT+0900 (GMT+09:00)
+[debug] [2019-05-17T09:06:43.474Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-17T09:06:43.481Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-17T09:06:43.481Z] > authorizing via signed-in user
+[debug] [2019-05-17T09:06:43.481Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-17T09:06:43.482Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-17T09:06:44.233Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-17T09:06:44.234Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-17T09:06:44.967Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chatter'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-17T09:06:44.970Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-17T09:06:44.970Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-17T09:06:45.307Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-17T09:06:45.383Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chatter/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-17T09:06:45.595Z] Functions runtime initialized.
+[debug] [2019-05-17T09:06:45.596Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  Error: Cannot find module 'package.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at verifyDeveloperNodeModules (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:118:32)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:458:26
+    at Generator.next (<anonymous>)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2019-05-17T09:07:19.461Z] ----------------------------------------------------------------------
+[debug] [2019-05-17T09:07:19.463Z] Command:       /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-17T09:07:19.463Z] CLI Version:   6.9.2
+[debug] [2019-05-17T09:07:19.463Z] Platform:      darwin
+[debug] [2019-05-17T09:07:19.463Z] Node Version:  v10.15.3
+[debug] [2019-05-17T09:07:19.463Z] Time:          Fri May 17 2019 18:07:19 GMT+0900 (GMT+09:00)
+[debug] [2019-05-17T09:07:19.463Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-17T09:07:19.470Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-17T09:07:19.470Z] > authorizing via signed-in user
+[debug] [2019-05-17T09:07:19.470Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-17T09:07:19.471Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-17T09:07:20.201Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-17T09:07:20.203Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-17T09:07:20.941Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chatter'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-17T09:07:20.944Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-17T09:07:20.944Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-17T09:07:21.324Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-17T09:07:21.351Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chatter/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-17T09:07:21.626Z] Functions runtime initialized.
+[debug] [2019-05-17T09:07:21.626Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  Error: Cannot find module 'package.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at verifyDeveloperNodeModules (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:118:32)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:458:26
+    at Generator.next (<anonymous>)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2019-05-17T09:09:37.155Z] ----------------------------------------------------------------------
+[debug] [2019-05-17T09:09:37.157Z] Command:       /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-17T09:09:37.157Z] CLI Version:   6.9.2
+[debug] [2019-05-17T09:09:37.157Z] Platform:      darwin
+[debug] [2019-05-17T09:09:37.157Z] Node Version:  v10.15.3
+[debug] [2019-05-17T09:09:37.157Z] Time:          Fri May 17 2019 18:09:37 GMT+0900 (GMT+09:00)
+[debug] [2019-05-17T09:09:37.158Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-17T09:09:37.164Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-17T09:09:37.164Z] > authorizing via signed-in user
+[debug] [2019-05-17T09:09:37.164Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-17T09:09:37.165Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-17T09:09:37.919Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-17T09:09:37.922Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-17T09:09:38.667Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chatter'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-17T09:09:38.670Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-17T09:09:38.670Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-17T09:09:39.053Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-17T09:09:39.091Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chatter/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-17T09:09:39.304Z] Functions runtime initialized.
+[debug] [2019-05-17T09:09:39.305Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  Error: Cannot find module 'package.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at verifyDeveloperNodeModules (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:118:32)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:458:26
+    at Generator.next (<anonymous>)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2019-05-17T09:09:58.782Z] ----------------------------------------------------------------------
+[debug] [2019-05-17T09:09:58.784Z] Command:       /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-17T09:09:58.784Z] CLI Version:   6.9.2
+[debug] [2019-05-17T09:09:58.784Z] Platform:      darwin
+[debug] [2019-05-17T09:09:58.784Z] Node Version:  v10.15.3
+[debug] [2019-05-17T09:09:58.784Z] Time:          Fri May 17 2019 18:09:58 GMT+0900 (GMT+09:00)
+[debug] [2019-05-17T09:09:58.784Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-17T09:09:58.791Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-17T09:09:58.791Z] > authorizing via signed-in user
+[debug] [2019-05-17T09:09:58.791Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-17T09:09:58.792Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-17T09:09:59.532Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-17T09:09:59.533Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-17T09:10:00.263Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chatter'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-17T09:10:00.266Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-17T09:10:00.266Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-17T09:10:00.647Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-17T09:10:00.718Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chatter/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-17T09:10:00.941Z] Functions runtime initialized.
+[debug] [2019-05-17T09:10:00.941Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  Error: Cannot find module 'package.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at verifyDeveloperNodeModules (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:118:32)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:458:26
+    at Generator.next (<anonymous>)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2019-05-17T09:11:50.786Z] ----------------------------------------------------------------------
+[debug] [2019-05-17T09:11:50.788Z] Command:       /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-17T09:11:50.788Z] CLI Version:   6.9.2
+[debug] [2019-05-17T09:11:50.788Z] Platform:      darwin
+[debug] [2019-05-17T09:11:50.788Z] Node Version:  v10.15.3
+[debug] [2019-05-17T09:11:50.789Z] Time:          Fri May 17 2019 18:11:50 GMT+0900 (GMT+09:00)
+[debug] [2019-05-17T09:11:50.789Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-17T09:11:50.797Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-17T09:11:50.798Z] > authorizing via signed-in user
+[debug] [2019-05-17T09:11:50.798Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-17T09:11:50.799Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-17T09:11:51.548Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-17T09:11:51.549Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-17T09:11:52.287Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chatter'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-17T09:11:52.290Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-17T09:11:52.290Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-17T09:11:52.676Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-17T09:11:52.688Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chatter/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-17T09:11:52.913Z] Functions runtime initialized.
+[debug] [2019-05-17T09:11:52.914Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  Error: Cannot find module 'package.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at verifyDeveloperNodeModules (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:118:32)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:458:26
+    at Generator.next (<anonymous>)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2019-05-17T09:13:21.984Z] ----------------------------------------------------------------------
+[debug] [2019-05-17T09:13:21.985Z] Command:       /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/node /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/bin/firebase serve
+[debug] [2019-05-17T09:13:21.985Z] CLI Version:   6.9.2
+[debug] [2019-05-17T09:13:21.985Z] Platform:      darwin
+[debug] [2019-05-17T09:13:21.985Z] Node Version:  v10.15.3
+[debug] [2019-05-17T09:13:21.986Z] Time:          Fri May 17 2019 18:13:21 GMT+0900 (GMT+09:00)
+[debug] [2019-05-17T09:13:21.986Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-17T09:13:21.993Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-17T09:13:21.993Z] > authorizing via signed-in user
+[debug] [2019-05-17T09:13:21.993Z] [iam] checking project poyoing-bb71d for permissions ["firebase.projects.get"]
+[debug] [2019-05-17T09:13:21.994Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d:testIamPermissions  
+
+[debug] [2019-05-17T09:13:22.744Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-17T09:13:22.745Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/poyoing-bb71d  
+ 
+[debug] [2019-05-17T09:13:23.485Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hxdegawa/Codes/chatter'...
+[info] 
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[debug] [2019-05-17T09:13:23.488Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-17T09:13:23.488Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/829165358578:getServerAppConfig  
+ 
+[debug] [2019-05-17T09:13:23.878Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-05-17T09:13:23.901Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/hxdegawa/Codes/chatter/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-17T09:13:24.123Z] Functions runtime initialized.
+[debug] [2019-05-17T09:13:24.124Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  Error: Cannot find module 'package.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at verifyDeveloperNodeModules (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:118:32)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:458:26
+    at Generator.next (<anonymous>)
+    at /Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/hxdegawa/.anyenv/envs/ndenv/versions/10.15.3/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
