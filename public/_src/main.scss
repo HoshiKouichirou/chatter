@@ -4,7 +4,7 @@ body {
   max-width: 100vw;
   min-height: 100vh;
   overflow-x: hidden;
-  background-image: linear-gradient(to right, #fafafa 0%, #fcfcfc 100%);
+  background-color: #f8f4e6;
 
   * {
     font-family: 'Roboto', 'Noto Sans JP', sans-serif;
@@ -72,56 +72,113 @@ body {
       max-height: calc(100vh - 64px - 4rem);
       transform: translateY(2rem);
       margin: 0;
+      padding: 20px 20px 0 20px;
       overflow-y: scroll;
       overflow-x: hidden;
       box-sizing: border-box;
-      padding: 0 20px;
 
       &::-webkit-scrollbar-track {
-        -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.3);
-        background-color: #F5F5F5;
+        display: none;
       }
 
       &::-webkit-scrollbar {
-        width: 3px;
-        background-color: #F5F5F5;
+        display: none;
       }
 
       &::-webkit-scrollbar-thumb {
-        background-color: #000000;
-        border: 1px solid #555555;
+        display: none;
       }
 
-      li {
-        margin-bottom: 1rem;
+      .user-messages {
+        position: relative;
 
-        &:not(.self) > span {
-          animation: slideInL ease .8s forwards;
-        }
-
-        &.self {
+        .profile-img {
+          position: absolute;
+          height: 30px;
+          width: 30px;
+          border-radius: 15px;
+          overflow: visible;
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
 
           &:after {
-            content: "";
-            clear: both;
-            display: table;
+            content: attr(data-display-name);
+            position: absolute;
+            word-break: keep-all;
+            top: -1.3rem;
+            font-size: .6rem;
+            color: #5f5f5f;
+            letter-spacing: 1px;
+            white-space: pre;
+          }
+        }
+
+        li {
+          margin-bottom: 1rem;
+
+          &:last-of-type {
+            margin-bottom: 30px;
           }
 
           span {
-            float: right;
-            animation: slideInR ease .8s forwards;
+            display: inline-block;
+            letter-spacing: 1px;
+            font-size: .9rem;
+            box-sizing: border-box;
+            padding: 3px 10px;
+            background-color: #ffffff;
+            max-width: calc(100% - 100px);
+            word-break: break-word;
           }
         }
 
-        span {
-          display: inline-block;
-          letter-spacing: 1px;
-          font-size: .9rem;
-          box-sizing: border-box;
-          padding: 3px 10px;
-          background-color: #ffffff;
-          max-width: 100%;
-          word-break: break-all;
+        &:not(.self) {
+
+          .profile-img {
+            top: 0;
+            left: 0;
+            animation-delay: .8s;
+            animation: slideInL ease .8s forwards;
+
+            &:after {
+              left: 50px;
+            }
+          }
+
+          li {
+            span {
+              animation: slideInL ease .8s forwards;
+              margin-left: 50px;
+            }
+          }
+        }
+
+        &.self {
+          .profile-img {
+            top: 0;
+            right: 0;
+            animation-delay: .8s;
+            animation: slideInR ease .8s forwards;
+
+            &:after {
+              right: 50px;
+            }
+          }
+
+          li {
+            &:after {
+              content: "";
+              clear: both;
+              display: table;
+            }
+
+            span {
+              float: right;
+              animation: slideInR ease .8s forwards;
+              margin-right: 50px;
+            }
+          }
         }
 
         @keyframes slideInL {

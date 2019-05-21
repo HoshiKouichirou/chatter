@@ -1,6 +1,8 @@
 $(() => {
 
-	let selfEmail = "";
+	let selfEmail = "",
+			selfThumbnail = "",
+			selfDisplayName = ""
 
 	firebase.auth().getRedirectResult().then(function(result) {
 		if (result.credential) {
@@ -32,7 +34,10 @@ $(() => {
 	});
 
 	function addChatInterface(user) {
+		console.log(user);
 		selfEmail = user.email;
+		selfThumbnail = user.photoURL;
+		selfDisplayName = user.displayName;
 		$(".logging-screen").addClass("authed");
 	}
 
@@ -40,15 +45,35 @@ $(() => {
 	db.collection("rooms").doc("test").collection("messages").orderBy("timestamp", "asc").onSnapshot(function(snapshot){
 		snapshot.docChanges().forEach(function(change) {
 			if (change.type === "added") {
-				console.log(change.doc.data().email);
-				if (change.doc.data().email === selfEmail) {
-					$("<li class='self' />").appendTo(".message");
-					$("<span />").text(change.doc.data().message).appendTo(".message > li:last");
+
+				const profileImage = change.doc.data().thumbnail;
+
+				if ($(".user-messages:last").attr("data-thumbnail") === profileImage) {
+
+					$("<li class='self' />").appendTo(".user-messages:last");
+					$("<span />").text(change.doc.data().message).appendTo(".user-messages:last > li:last");
 					$(".message").scrollTop($(".message")[0].scrollHeight);
+
 				} else {
-					$("<li />").appendTo(".message");
-					$("<span />").text(change.doc.data().message).appendTo(".message > li:last");
-					$(".message").scrollTop($(".message")[0].scrollHeight);
+
+					if (change.doc.data().email === selfEmail) {
+
+						$(`<div class='user-messages self' data-thumbnail=${profileImage} />`).appendTo(".message");
+						$(`<div class='profile-img' data-display-name='${change.doc.data().displayName}' style='background-image: url("${profileImage}")' />`).appendTo(".user-messages:last");
+
+						$("<li class='self' />").appendTo(".user-messages:last");
+						$("<span />").text(change.doc.data().message).appendTo(".user-messages:last > li:last");
+						$(".message").scrollTop($(".message")[0].scrollHeight);
+
+					} else {
+
+						$(`<div class='user-messages' data-thumbnail=${profileImage} />`).appendTo(".message");
+						$(`<div class='profile-img' data-display-name='${change.doc.data().displayName}' style='background-image: url("${profileImage}")' />`).appendTo(".user-messages:last");
+
+						$("<li />").appendTo(".user-messages:last");
+						$("<span />").text(change.doc.data().message).appendTo(".user-messages:last > li:last");
+						$(".message").scrollTop($(".message")[0].scrollHeight);
+					}
 				}
 			};
 		});
@@ -65,7 +90,9 @@ $(() => {
 		db.collection("rooms").doc("test").collection("messages").add({
 			message: message,
 			timestamp: firebase.firestore.FieldValue.serverTimestamp(),
-			email: selfEmail
+			email: selfEmail,
+			thumbnail: selfThumbnail,
+			displayName: selfDisplayName
 		});
 	});
 });
